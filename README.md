@@ -19,9 +19,7 @@ This repository contains the source code and datasets for the CIKM 2020 paper "[
 - Anaconda3
 
 # Datasets
-Our review datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded from [Amazon Review](http://jmcauley.ucsd.edu/data/amazon/links.html) and crawled from [IMDB](https://www.imdb.com/). In addition, the entity-item linkage can be accessed from [KB4Rec](https://github.com/RUCAIBox/KB4Rec). Note that, to crawling the IMDB review, we first take the linked items in KB4Rec as spider seeds, and then crawl their corresponding review text.
-
-Finally, the review text (labelled with entities) in three domains can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing). The following table presents the statistics of our datasets after preprocessing.
+Our review datasets, including Amazon Book, Electronic and IMDB movie, can be downloaded from [Amazon Review](http://jmcauley.ucsd.edu/data/amazon/links.html) and crawled from [IMDB](https://www.imdb.com/). In addition, the entity-item linkage can be accessed from [KB4Rec](https://github.com/RUCAIBox/KB4Rec). Note that, to crawl the IMDB review, we first take the linked items in KB4Rec as spider seeds, and then crawl their corresponding review text. Finally, the review text (labelled with entities) in three domains can be downloaded through [this link](https://drive.google.com/drive/folders/1xvAkWs8JXKRigMH68mK2zbhoqzvfcvou?usp=sharing). The following table presents the statistics of our datasets after preprocessing.
 
 | Datasets  | | Electronic | Book | Movie |
 |:----:|:----|---------:|----:|----:|
